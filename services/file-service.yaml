@@ -13,5 +13,7 @@ eureka:
     prefer-ip-address: true
     instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
 
-app:
-  gcs-bucket: "library-files-bucket"
+gcp:
+  project-id: eca-library-management-project
+  credentials-location: eca-library-management-project-a490187644ec.json
+  bucket-id: eca-library-management-bucket
