@@ -15,5 +15,5 @@ eureka:
 
 gcp:
   project-id: eca-library-management-project
-  credentials-location: eca-library-management-project-a490187644ec.json
-  bucket-id: eca-library-management-bucket
+  credentials-location: eca-library-management-project-fa9d6f029190.json
+  bucket-id: eca-final-project-bucket
