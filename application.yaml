@@ -1,7 +1,13 @@
 eureka:
   client:
+    fetch-registry: true
+    register-with-eureka: true
+    registry-fetch-interval-seconds: 30
     service-url:
-      defaultZone: http://vm-node-a.platform:8761/eureka, http://vm-node-b.platform:8761/eureka, http://vm-node-c.platform:8761/eureka
+      defaultZone: http://vm-node-a.platform:8761/eureka/,http://vm-node-b.platform:8761/eureka/,http://vm-node-c.platform:8761/eureka/
+  instance:
+    hostname: ${spring.cloud.client.hostname}
+    prefer-ip-address: false
 
 management:
   endpoints:
