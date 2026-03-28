@@ -14,6 +14,6 @@ eureka:
     instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
 
 gcp:
-  project-id: eca-final-project-491209
-  credentials-location: eca-final-project-491209-6907a934ea40.json
-  bucket-id: eca-lm-final-project-bucket
+  project-id: eca-library-management-project
+  credentials-location: eca-library-management-project-c729c7e7b1df.json
+  bucket-id: eca-final-project-bucket

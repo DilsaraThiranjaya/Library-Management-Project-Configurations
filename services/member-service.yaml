@@ -4,8 +4,7 @@ spring:
       enabled: true
 
   mongodb:
-    uri: mongodb://root:yrJ8NKKEiBoxKuRWcUwBM1RIIMCDlEX3XHXUySez7vdlOGIy@871235da-5428-4c0a-b6c9-c2a688ec20d0.asia-east2.firestore.goog:443/vm-eca-lm-final-project-mongodb?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
-
+    uri: mongodb://root:bQEjW8hREhAWiKeZOnljPtx8w0JNQD16NYoYOdwvxJ-9Xwkr@f4f78138-332c-4fa3-8840-e98ab81de839.asia-southeast1.firestore.goog:443/eca-final-project-mongodb-vm?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
 server:
   port: 0
 
