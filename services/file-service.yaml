@@ -15,5 +15,5 @@ eureka:
 
 gcp:
   project-id: dilsara
-  credentials-location: dilsara-b4f09d0d4c15.json
+  credentials-location: classpath:dilsara-b4f09d0d4c15.json
   bucket-id: eca-lm-project-bucket
